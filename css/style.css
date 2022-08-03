@@ -134,8 +134,8 @@ body {
 }
 
 .form {
-  max-width: 33.3125rem;
-  background-color: #fff;
+  max-width: 100%;
+  background-color: #263238;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1545,7 +1545,7 @@ body::after {
 
 .reviews__text {
   text-align: center;
-  max-width: 31.25rem;
+  max-width: 62.5rem;
 }
 
 @supports (margin-bottom: clamp( 1.875rem , 1.6043233083rem  +  1.3533834586vw , 3rem )) {
