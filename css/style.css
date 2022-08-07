@@ -1195,6 +1195,11 @@ body::after {
   background: rgba(0, 128, 0, 0.1);
 }
 
+.steps-how__icon img {
+  width: 50%;
+  height: 50%;
+}
+
 .steps-how__title {
   font-size: 1.25rem;
   font-weight: 700;
