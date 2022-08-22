@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>VisaNativeHelpers</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220822232303" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" style="position: relative">
+			<div class="header__container-big">
+				<a href="https://t.me/nativeHelpers" class="header__logo header__logo-native">Native Helpers</a>
+				<div class="header__menu menu">
+					<nav class="menu__body"></nav>
+				</div>
+				<div class="header__actions">
+					<button type="button" class="header__button button button_border" style="margin-left: auto" id="logout">
+						Выйти
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<main class="pageLogTrue">
+			<section class="pageLogTrue__main pageLogTrue-block">
+				<div data-prlx-parent class="pageLogTrue-block__container-big">
+					<div class="pageLogTrue-block__container">
+						<div class="pageLogTrue-block__content">
+							<form action="#" style="flex-direction: column; gap: 25px; z-index: 5;" class="pageLogTrue-block__form form">
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Фамилия с паспорта латинскими буквами (например:IVANOU)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Имя  с паспорта латинскими буквами (например:IVANOU)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="День рождения(например:11.11.1991)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Серия и номер паспорта (например KH2367289)" class="form__input" />
+								<input data-required="password" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Индефикационный номер (например:3390883A099PB3)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Профессия или образование (например:MARKETOLOG)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Имя отца английскими буквами (например:IVAN)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Имя мамы английскими буквами (например:AKSANA)					" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Город рождения английскими буквами (например:MINSK)
+					" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Город и улица прописки английскими буквами (например:GRODNO, UL. LENINA)
+					" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Номер дома/квартира (например:23/32)
+					" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Сотовый личный (например: +375295810088)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Адрес электронной почты (например: mailForViza@gmail.com)" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Почтовый индекс (например: 00-739)
+					" class="form__input" />
+								<input autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Введите ключ от консультанта,это ваш пароль (например: Tkog4_2tmsiUDb-11)" class="form__input" />
+								<button data-popup="#popup_1" type="button" class="form__button button" style="margin-top: 30px;">Подать заявку</button>
+							</form>
+							<div class="pageLogTrue-block__text text" style="font-size: 22px;margin-top: 70px;margin-bottom: 40px;">
+								<span class="green">ВАЖНО : </span><br>
+								- После подачи заявки,спустя 48 часов вам на почту или в мессенджер(по желанию) придут дальнейшие инструкции <br>
+								- После отправки последней формы вас перенаправит на главную страницу,вам не нужно заходить в кабинет заново(он создан только для подачи заявки,дальнейшая связь через телеграмм и почту)<br>
+								- Если вы <span class="green">получили</span> сообщение спустя 48 часов,наберитесь терпения и ожидайте дату подачи <br>
+								- Если вы <span class="green">не получили</span> дальнейшие инструкции,свяжитесь с нами <br>
+								- Если вы <span class="green">Передумали</span> делать визу,обязательно сразу же свяжитесь с нами,в свою очередь мы <span class="green">обещаем</span> информировать вас регулярно о статусе готовности вашей визы <br>
+								- Спасибо за доверие и ваш выбор,мы ценим вас и ваше время
+								- Наши констультанты на связи 24/7 <br>
+								- Не забывайте подписываться на наш <a href="https://t.me/nativeHelpers" class="green">канал</a>
+							</div>
+						</div>
+					</div>
+			</section>
+		</main>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Х</button>
+				<div class="popup__text">
+					<form action="#" style="flex-direction: column; gap: 25px" class="form-main__form form">
+						<div style="display: grid; gap: 9px">
+							<div>Введите ваш ник в телеграм:</div>
+							<input data-required="email" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Например: @max42" class="form__input" />
+						</div>
+						<div style="display: grid; gap: 9px">
+							<div style="line-height: 23px">
+								Введите ваш пароль (запросить у
+								<a href="https://t.me/HappyAdmin777" class="green">консультана</a> ):
+							</div>
+							<input data-required="password" autocomplete="off" type="password" name="form[]" data-error="Error" placeholder="" class="form__input" />
+						</div>
+						<div style="display: grid; gap: 9px">
+							<div>Введите ваш ключ :</div>
+							<input data-required="password" autocomplete="off" type="text" name="form[]" data-error="Error" class="form__input" placeholder="" />
+						</div>
+						<!-- <div class="form__line">
+            <input autocomplete="off" type="password" name="form[]" value="123456" />
+            <button class="form__viewpass" type="button">Показать пароль</button>
+          </div> -->
+						<button type="submit" class="form__button button">Login</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup_1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Х</button>
+				<div class="popup__text">
+					<div style="display: grid; gap: 9px">
+						<div style="line-height: 30px; font-size: 25px">
+							Ваша заявка успешно отправлена! Заполните заявку на остальных членов семьи, либо выйдите
+							из кабинета и ожидайте обратной связи. Спасибо за ваш выбор! Даём 100% гарантии на
+							получение визы.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220822232303"></script>
+</body>
+
+</html>
